@@ -1,0 +1,36 @@
+p{
+    margin: 0px;
+}
+#banane{
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    overflow: hidden;
+}
+#banane:hover{
+    overflow: visible;
+}
+ul .rouge{
+    list-style-type: none;    
+}
+.rouge::before{
+content: "▪";
+color: red;
+display: inline-block; width: 1em;
+margin-left: -0.90em
+}
+table, th, td{
+    border: 1px solid;
+}
+th{
+    background-color: #554348;
+}
+.pth{
+    color: white;
+}
+tr:nth-child(even){
+    background: #8C9A9E;
+}
+tr:nth-child(odd){
+    background: #D4F5F5;
+}
